@@ -14,4 +14,9 @@ Callback function được truyền vào hàm như một tham số. Đơn giản
 
 ### QUESTION 4: Promise
 
+Promise ra đời giúp hạn chế được việc callback hell (khiến code như một bậc thang). Promise hỗ trợ các cơ chế như chainning, bắt lỗi dễ dàng hơn khi nếu 1 hàm bị lỗi sẽ catch luôn, tiếp theo là việc xử lý đợi tất cả các hàm async chạy xong bằng Promise.all()
+
 ### QUESTION 5: Async/await
+
+Async await sinh ra để cải thiện thêm những bất cấp. Khi ta khai báo async nó sẽ biến hàm đó thành bất đồng bộ, khi nào ta cần đồng bộ ta sẽ gọi await để đợi các tác vụ async trước đó trong scope xử lý xong thì mới tiếp tục chạy code.
+**Lưu ý: Await phải được dùng trong async
