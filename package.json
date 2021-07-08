@@ -1,0 +1,23 @@
+{
+  "name": "task3_asynchronous",
+  "version": "1.0.0",
+  "description": "Bình thường với các ngôn ngữ khác chúng ta sẽ có cơ chế đa luồng để đảm bảo xử lý nhiều tác vụ và tối ưu công việc. Tuy nhiên với JavaScript và NodeJS ta lại biết đến bất đồng bộ. Lúc này code sẽ vẫn chạy lần lượt từ trên xuống dưới do nó là thông dịch line-by-line. Tuy nhiên, nó sẽ có những lúc không đợi các dòng code i chạy xong mà cứ chạy tiếp dòng code i+1,i+2,...",
+  "main": "callback.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnam-foobla/Task3_Asynchronous.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnam-foobla/Task3_Asynchronous/issues"
+  },
+  "homepage": "https://github.com/dnam-foobla/Task3_Asynchronous#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
