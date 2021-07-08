@@ -20,3 +20,15 @@ Promise ra đời giúp hạn chế được việc callback hell (khiến code 
 
 Async await sinh ra để cải thiện thêm những bất cấp. Khi ta khai báo async nó sẽ biến hàm đó thành bất đồng bộ, khi nào ta cần đồng bộ ta sẽ gọi await để đợi các tác vụ async trước đó trong scope xử lý xong thì mới tiếp tục chạy code.
 **Lưu ý: Await phải được dùng trong async
+
+### ASSIGNMENT
+
+Run command line
+
+```shell
+npm run test
+```
+to run unit test algorithm
+
+Result:
+![img]("https://github.com/dnam-foobla/Task3_Asynchronous/blob/main/test/Result.PNG")
