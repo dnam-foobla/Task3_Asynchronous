@@ -31,4 +31,4 @@ npm run test
 to run unit test algorithm
 
 Result:
-![img]("https://github.com/dnam-foobla/Task3_Asynchronous/blob/main/test/Result.PNG")
+![img](https://github.com/dnam-foobla/Task3_Asynchronous/blob/main/test/Result.PNG)
